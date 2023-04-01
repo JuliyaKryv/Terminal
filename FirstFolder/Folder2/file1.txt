@@ -1,0 +1,6 @@
+Quality assurance (QA) is the term used in service industries to describe the systematic efforts taken to ensure that the product(s) delivered to customer(s) meet the contractual and other agreed-upon performance, design, reliability, and maintainability expectations for that customer. 
+
+This defect prevention aspect of quality assurance differs from the defect detection aspect of quality control and has been referred to as a shift left since it focuses on quality efforts earlier in product development and production (i.e., a shift to the left of a linear process diagram reading left to right) and on avoiding defects in the first place rather than correcting them after the fact.
+
+The terms "quality assurance" and "quality control" are often used interchangeably to refer to ways of ensuring the quality of a service or product.
+ For instance, the term "assurance" is often used in a context such as: Implementation of inspection and structured testing as a measure of quality assurance set software project where inspection and structured testing are the measurement phase of a quality assurance strategy referred to as the DMAIC model (define, measure, analyze, improve, control). DMAIC is a data-driven quality strategy used to improve processes. The term "control" is the fifth phase of this strategy.

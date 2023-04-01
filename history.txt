@@ -1,0 +1,294 @@
+  723  cd /Users/macbookpro/GitHub/Postman 
+  724  ls
+  725  git add .
+  726  git commit -m "Added Postman Collections"
+  727  git push
+  728  git status
+  729  cd ..
+  730  cd JuliyaKryv
+  731  add README.md
+  732  git add README.md
+  733  git commit -m "Link to Postman Collection was added"
+  734  git push
+  735  git add README.md
+  736  git commit -m "The buttons color was fixed"
+  737  git push
+  738  git add README.md
+  739  git commit -m "CV link added"
+  740  git push
+  741  cd ~/GitHub
+  742  pwd
+  743  mkdir FirstFolder
+  744  ls
+  745  cd FirstFolder
+  746  pwd
+  747  mkdir Folder1 Folder2 Folder3
+  748  ls
+  749  ls - l
+  750  ls -l
+  751  cd Folder2
+  752  touch file1.txt file2.txt file3.txt fileJ1.jsom fileJ2.json
+  753  ls
+  754  mkdir App1 App2 App3
+  755  ls
+  756  cat file1.txt
+  757  cat >> file1.txt
+  758  cat >> file1.txt
+  759  vim file1.txt
+  760  vim file1.txt
+  761  vim file1.txt
+  762  cd ..
+  763  mv fileJ1.json fileJ2.json Folder3
+  764  pwd
+  765  ls
+  766  mv cd Folder2
+  767  cd Folder2
+  768  ls
+  769  rm fileJ1.jsom
+  770  ls
+  771  touch fileJ1.json
+  772  ls
+  773  mv fileJ1.json fileJ2.json Folder3
+  774  mv fileJ1.json Folder3
+  775  ls
+  776  mv Folder3 fileJ1.json
+  777  ls
+  778  mv fileJ1.json fileJ2.json /Users/macbookpro/GitHub/FirstFolder/Folder3 
+  779  ls
+  780  cd ..
+  781  cd Folder3
+  782  ls
+  783  cp fileJ1.json fileJ2.json Users/macbookpro/GitHub/FirstFolder/Folder3\n
+  784  cp fileJ1.json fileJ2.json Folder1\n
+  785  cp fileJ1.json fileJ2.json Users/macbookpro/GitHub/FirstFolder/Folder1\n
+  786  cp fileJ1.json fileJ2.json ~/Folder1\n
+  787  CD ..
+  788  cd ..
+  789  ls -la
+  790  cp fileJ1.json fileJ2.json Users/macbookpro/GitHub/FirstFolder/Folder1\n
+  791  cp fileJ1.json fileJ2.json Users/macbookpro/GitHub/FirstFolder\n
+  792  cp fileJ1.json fileJ2.json Folder1
+  793  man cp
+  794  cp fileJ1.json fileJ2.json /Users/macbookpro/GitHub/FirstFolder/Folder1\n
+  795  cd Folder3
+  796  ls
+  797  cp fileJ1.json fileJ2.json /Users/macbookpro/GitHub/FirstFolder/Folder1\n
+  798  cd ..
+  799  cd Folder1
+  800  ls
+  801  find file1.txt
+  802  cd ..
+  803  find ./ -name file2.txt
+  804  tail -f 
+  805  cd Folder2
+  806  tail -f 
+  807  tail -f /Users/macbookpro/GitHub/FirstFolder/Folder2 
+  808  tail -f file2.txt
+  809  tail -f file1.txt
+  810  tail -f /Users/macbookpro/GitHub/FirstFolder/Folder2/ 
+  811  tail -f file1.txt
+  812  head -n 3
+  813  head -n 3 file1.txt
+  814  head -n 2 file1.txt
+  815  head -n 2 file2.txt
+  816  tail -f file2.txt
+  817  tail -n 3 file2.txt
+  818  less file2.txt
+  819  less file1.txt
+  820  less file3.txt
+  821  less -10 file3.txt
+  822  man less
+  823  less -h 10 file3.txt
+  824  man less
+  825  less file3.txt
+  826  tail -f file3.txt
+  827  tail file3.txt
+  828  head file3.txt
+  829  head -f file3.txt
+  830  find ./ -name file2.txt
+  831  find ./ -name fileJ2.txt
+  832  cd ..
+  833  find ./ -name fileJ2.txt
+  834  cd Folder2
+  835  find ./ -name fileJ2.json
+  836  cd ..
+  837  find ./ -name fileJ2.json
+  838  cd Folder2
+  839  ls
+  840  tail -n 3 file3.txt
+  841  less file3.txt
+  842  date
+  843  cURL http://162.55.220.72:5005/terminal-hw-request\n
+  844  cd GitHub
+  845  git clone https://github.com/JuliyaKryv/Terminal.git
+  846  cd Terminal
+  847  ls
+  848  cd ..
+  849  mv FirstFolder ~/Terminal
+  850  cd Terminal
+  851  ls
+  852  mv FirstFolder /Users/macbookpro/GitHub/Terminal 
+  853  mv /Users/macbookpro/FirstFolder  /Users/macbookpro/GitHub/Terminal 
+  854  touch RunScript.sh
+  855  ls
+  856  vim RunScript.sh
+  857  cat RunScript.sh
+  858  cmod RunScript.sh 
+  859  cmod 755 RunScript.sh 
+  860  chmod RunScript.sh 
+  861  zsh RunScript.sh
+  862  mkdir dir_1
+  863  cd dir_1
+  864  mkdir inner_dir_1
+  865  pwd
+  866  touch tf_1.txt
+  867  cat >> tf_2.txt
+  868  cat tf_2.txt
+  869  cat >> tf_2.txt
+  870  cat tf_2.txt
+  871  cd inner_dir_1
+  872  cat >> tf_3.txt 
+  873  cat >> tf_3.txt 
+  874  cat tf_3.txt
+  875  ls
+  876  cat tf_3.txt
+  877  rm tf_3.txt
+  878  vim tf_3.txt
+  879  cat >> tf_3.txt
+  880  cat tf_3.txt
+  881  cat >> tf_3.txt
+  882  cat >> tf_3.txt
+  883  cat >> tf_3.txt
+  884  cat tf_3.txt
+  885  cat tf_2.txt
+  886  cd ..
+  887  cat tf_2.txt
+  888  cat >> tf_2.txt
+  889  cat >> tf_4.txt
+  890  cat >> tF_5.txt
+  891  ls -la
+  892  touch file.txt /Users/macbookpro/GitHub/Terminal/dir_1/inner_dir_1 
+  893  ls -l
+  894  rm file.txt
+  895  cat tf_3.txt
+  896  cat ~/tf_3.txt
+  897  tail -f tf_3.txt
+  898  find ./ -name tf_3.txt
+  899  cd inner_dir_1
+  900  cat tf_3.txt
+  901  cd ..
+  902  ls -l
+  903  cat tf_4.txt
+  904  vim tf_4.txt
+  905  cat tf_4.txt
+  906  find ./ -name "tf*"
+  907  find ./ -i -name "tf*"
+  908  find ./ -iname "tf*"
+  909  grep sec
+  910  grep sec dir_1/
+  911  grep sec ~/dir_1/
+  912  grep sec ~//dir_1/
+  913  grep sec .//dir_1/
+  914  grep -r sec . 
+  915  grep -r -i sec . 
+  916  grep -r -i sec 
+  917  grep -r -i -w sec 
+  918  grep -r -w sec 
+  919  grep -r -w second 
+  920  grep -r second 
+  921  grep . second 
+  922  grep sec ./dir_1
+  923  grep -r -i second 
+  924  grep second . 
+  925  find -name grep second 
+  926  find -name grep -r second 
+  927  find grep second 
+  928  find grep -r second 
+  929  grep sec .
+  930  grep -r sec .
+  931  grep -r sec
+  932  grep -r -v second
+  933  find ./ -name grep -r -v second
+  934  grep -r -v second find ./ -name
+  935  grep ./ second
+  936  grep /Users/macbookpro/GitHub/Terminal/dir_1/* second 
+  937  grep "second" ~/*.txt
+  938  grep -i "second" ~/*.txt
+  939  grep second /Users/macbookpro/GitHub/Terminal/dir_1/*.txt 
+  940  grep -i second /Users/macbookpro/GitHub/Terminal/dir_1/*.txt 
+  941  grep -r sec
+  942  grep -ril second
+  943  grep second
+  944  grep -r second
+  945  grep -il second /Users/macbookpro/GitHub/Terminal/dir_1/*.txt\n
+  946  grep -r -v -l second
+  947  tail -n 4 tF_5.txt
+  948  head -n 4 tF_5.txt
+  949  cd GitHub
+  950  cd Ter
+  951  cd Terminal
+  952  cd dir_1
+  953  mkdir inner_dir_2 touch tf_6.txt
+  954  grep -r sec
+  955  grep -r sec .
+  956  mkdir test_dir > tf_5.txt
+  957  mkdir test_dir >> tf_6.txt
+  958  mkdir test_dir  cat >> tf_6.txt
+  959  mkdir test_dir echo This sentence was written in the file according to task number 35 >> tf_6.txt
+  960  mkdir test_dir; echo 35 >> tf_6.txt
+  961  echo 35 >> tf_6.txt >> mkdir Test
+  962  grep -r sec 
+  963  grep -r sec | mv * /Users/macbookpro/GitHub/Terminal/dir_1/test_dir 
+  964  cd test_dir
+  965   mv * /Users/macbookpro/GitHub/Terminal/dir_1 
+  966  cd ..
+  967  cat >> tF_5.txt
+  968  vfn tF_5.txt
+  969  cat tF_5.txt
+  970  grep -r sec | mv /Users/macbookpro/GitHub/Terminal/dir_1/test_dir 
+  971  grep -v
+  972  grep -V
+  973  grep -r sec  
+  974  grep -r sec  -maxdepth 1
+  975  grep -r sec  -exec mv /Users/macbookpro/GitHub/Terminal/dir_1/test_dir
+  976  grep -r sec  -exec mv /Users/macbookpro/GitHub/Terminal/dir_1/test_dir {} +
+  977   mv grep -r sec /Users/macbookpro/GitHub/Terminal/dir_1/test_dir
+  978  grep -r sec  
+  979  find ./ -name *.txt | grep -r sec | mv /test_dir
+  980  vfn vv
+  981  man mv
+  982  find ./ -name *.txt | grep -r sec | mv /Users/macbookpro/GitHub/Terminal/dir_1/test_dir
+  983  find ./ -name *.txt | grep -r sec > test_dir
+  984  grep -r sec | find ./ -name *.txt > test_dir
+  985  grep -r sec && mv /Users/macbookpro/GitHub/Terminal/dir_1/test_dir
+  986  man echo
+  987  grep sec ./*.txt
+  988  grep second  ./*.txt
+  989  grep -i second  ./*.txt
+  990  grep -l second  ./*.txt
+  991  grep -rl sec 
+  992  grep -r sec 
+  993  grep -r -l sec | xargs mv -t ./test_dir
+  994  man mv
+  995   grep -r -i sec >> new_file.txt
+  996  cat new_file.txt
+  997   echo Good jobcat new_file.txt!
+  998  cat new_file.txt
+  999   echo "Good jobcat new_file.txt
+ 1000   echo Goog job
+ 1001  pwd
+ 1002  cd /GirHub/Terminal/dir_1
+ 1003  cd GirHub/Terminal/dir_1
+ 1004  cd GirHub
+ 1005  cd /GitHub/Terminal/dir_1
+ 1006  cd ./dir_1
+ 1007  cd ~/dir_1
+ 1008  cd GitHub
+ 1009  cd Terminal
+ 1010  cd dir_1
+ 1011  cat /Users/macbookpro/GitHub/Terminal/dir_1/inner_dir_1/tf_3.txt 
+ 1012  cd ..
+ 1013  ls
+ 1014  touch Term_HW_1.txt Term_HW_2.txt
+ 1015  ls
+ 1016  history 500

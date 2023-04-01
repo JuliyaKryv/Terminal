@@ -1,0 +1,74 @@
+HW_1
+Terminal commands
+
+1) Переглянути де я 
+||    pwd
+
+2) Створити папку 
+||    mkdir FirsfFolder
+
+3) Зайти до папки 
+||    cd FirsfFolder
+
+4) Створити 3 папки 
+||    mkdir Folder1 Folder2 Folder3
+
+5) Зайти до будь-якої папки 
+||    cd Folder2
+
+6) Створити 5 файлів (3 txt, 2 json) 
+||    touch file1.txt file2.txt file3.txt fileJ1.json fileJ2.json
+
+7) Створити 3 папки 
+||    mkdir App1 App2 App3
+
+8. Вивести список вмісту папки 
+||    ls або ls -l
+
+9) Відкрити будь-який txt файл 
+||    cat >> file1.txt
+
+10) написати туди щось, будь-який текст.
+
+11) зберегти та вийти 
+||    `Shift`:wq `Enter`
+
+12) Вийти з папки на рівень вище 
+||    cd ..
+
+13) Перемістити будь-які 2 файли, які ви створили, в будь-яку іншу папку 
+||    mv fileJ1.json fileJ2.json /Users/macbookpro/GitHub/FirstFolder/Folder3
+
+13.1) Перемістити папку в іншу папку 
+||    mv /Users/macbookpro/FirstFolder /Users/macbookpro/GitHub/Terminal 
+      (mv <ШдПапки_ЯКУ перем>  <ШдПапки_КУДИ переміщ>)
+
+14) Cкопіювати будь-які 2 файли, які ви створили, в будь-яку іншу папку 
+||    cp fileJ1.json fileJ2.json /Users/macbookpro/GitHub/FirstFolder/Folder1
+
+15) Знайти файл на ім'я 
+||    find./-name file2.txt
+
+16) Переглянути вміст у реальному часі вивчіть, як це працює 
+||    tail -f file1.txt
+
+17) Вивести кілька перших рядків із текстового файлу 
+||    head -n 2 file2.txt
+
+18) Вивести кілька останніх рядків із текстового файлу  
+||    tail -n 3 file2.txt
+
+19) Переглянути вміст довгого файлу, вивчіть як це працює  
+||    less file3.txt
+
+20) Вивести дату та час  
+||    date
+=========
+
+Завдання *
+
+1) Надіслати http запит на сервер http://162.55.220.72:5005/terminal-hw-request
+||    cURL http://162.55.220.72:5005/terminal-hw-request
+
+2) Написати скрипт який виконає автоматично пункти 3, 4, 5, 6, 7, 8, 13
+||    zsh RunScript.sh
