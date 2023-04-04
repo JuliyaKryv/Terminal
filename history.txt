@@ -275,7 +275,7 @@
   997   echo Good jobcat new_file.txt!
   998  cat new_file.txt
   999   echo "Good jobcat new_file.txt
- 1000   echo Goog job
+ 1000   echo 'Goog job!'
  1001  pwd
  1002  cd /GirHub/Terminal/dir_1
  1003  cd GirHub/Terminal/dir_1
@@ -292,3 +292,20 @@
  1014  touch Term_HW_1.txt Term_HW_2.txt
  1015  ls
  1016  history 500
+ 1017  history 500 >> history.txt
+ 1018  cd GitHub
+ 1019  cd Terminal
+ 1020  cd dir_1
+ 1021  ls
+ 1022  grep -lr sec . | xargs -I % mv % ./test_dir
+ 1023  ls
+ 1024  cd test_dir
+ 1025  ls
+ 1026  grep sec
+ 1027  grep sec ./*.txt
+ 1028  cd ..
+ 1029  grep -lr sec . | xargs -I % cp % ./inner_dir_1 
+ 1030  cd inner_dir_1
+ 1031  ls
+ 1032  cd ..
+ 1033  grep -lr sec . | xargs -I % rm % ./inner_dir_1 
